@@ -1,6 +1,6 @@
 import React, {ReactNode} from 'react';
 import UserList from '../../components/UserList';
-import './app.css';
+import './App.css';
 
 /**
  * Entry point component for the application
