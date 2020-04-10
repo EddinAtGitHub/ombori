@@ -7,13 +7,14 @@ import {API_GET_USERS} from '../utils/Const';
 import Loader from './common/Loader';
 
 let users: IUser[] = [];
-let total = 0;
 
 /**
 * List of Users component
 * @constructor
 */
 function UserList (): React.ReactElement {
+	let total = 0;
+
 	const [page, setPage] = useState<number>(1);
 	const {loading, apiResponse} = useApiResponse<IListResponse<IUser>>(API_GET_USERS + `?page=${page}`);
 	const [noMoreUsersToLoad, setNoMoreUsersToLoad] = useState(false);
