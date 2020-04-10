@@ -1,0 +1,14 @@
+div.loader {
+    font-size: 40px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    max-width: 400px;
+    min-width: 150px;
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 100px);
+    font-size: 15px;
+}
