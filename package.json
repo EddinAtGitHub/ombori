@@ -16,8 +16,7 @@
 	"dependencies": {
 		"@types/react-infinite-scroller": "^1.2.1",
 		"react": "^16.10.2",
-		"react-dom": "^16.10.2",
-		"react-infinite-scroller": "^1.2.4"
+		"react-dom": "^16.10.2"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.6.4",
